@@ -1,28 +1,27 @@
 package com.sg.kjata.rnc;
 
 import org.junit.Assert;
-import org.junit.Test;
 
-import com.sg.kata.rnc.RomanConverterV2;
+import com.sg.kata.rnc.RomanConverterV3;
 
 import junit.framework.TestCase;
 
 /**
- * Test class of RomanConverterV2
+ * Test class of RomanConverterV3
  * 
  * @author dung
  *
  */
-public class RomanConverterV2Test extends TestCase {
+public class RomanConverterV3Test extends TestCase {
 
-	RomanConverterV2 romanConverter;
+	RomanConverterV3 romanConverter;
 
 	@Override
 	protected void setUp() throws Exception {
-		romanConverter = new RomanConverterV2();
+		romanConverter = new RomanConverterV3();
 	}
 
-	@Test
+//	@Test
 	public void testRoman() {
 
 		try {
